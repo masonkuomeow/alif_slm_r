@@ -1,6 +1,7 @@
 @echo off
 chcp 65001 >nul
-cd /d "C:\Users\mason\alif\alif_ml-embedded-evaluation-kit\tools\app-release-exec"
+REM Navigate to the directory where this script lives (app-release-exec/)
+cd /d "%~dp0"
 cls
 echo ================================================
 echo   Alif E8 - Enter Hard Maintenance Mode

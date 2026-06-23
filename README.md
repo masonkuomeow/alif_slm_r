@@ -311,14 +311,16 @@ cpackget add AlifSemiconductor.Ensemble.2.0.4.pack
 
 ## fwauto Config (`.fwauto/config.toml`)
 
+The included `.fwauto/config.toml` uses relative paths so it works for any user after cloning:
+
 ```toml
 [build]
 type = "command"
-command = "cbuild alif.csolution.yml --context hello.debug+E8-HE"
+command = "cmd /c \"cd alif_vscode-template && cmake --build tmp --target stories260k_runner.debug+E8-HE\""
 
 [deploy]
 type = "command"
-command = "cmd /c C:\\Users\\mason\\alif_slm\\flash.bat"
+command = "cmd /c \"cd . && python deploy_setools.py alif_vscode-template/out/stories260k_runner/E8-HE/debug/stories260k_runner.bin --com COM3\""
 
 [log]
 type = "serial"

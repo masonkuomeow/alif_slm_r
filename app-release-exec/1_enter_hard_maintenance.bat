@@ -1,6 +1,7 @@
 @echo off
 title Alif Hard Maintenance Mode
-cd /d "C:\Users\mason\alif\alif_ml-embedded-evaluation-kit\tools\app-release-exec"
+REM Navigate to the directory where this script lives (app-release-exec/)
+cd /d "%~dp0"
 cls
 echo ================================================
 echo   STEP 1: Enter Hard Maintenance Mode
