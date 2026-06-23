@@ -1,0 +1,5 @@
+{
+    "mramAddress": "0x80200000",
+    "cpu_id": "M55_HP",
+    "flags": ["boot"]
+}

@@ -1,0 +1,4 @@
+set semihosting args ../build/images/alif-img.bin 0x80000000 ../build/AppTocPackage.bin 0x8057f0e0
+continue
+wait
+reset reset.hardware

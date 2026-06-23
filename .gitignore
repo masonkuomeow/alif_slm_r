@@ -1,0 +1,112 @@
+# Build artifacts
+alif_vscode-template/tmp/
+alif_vscode-template/out/
+workshop-ethos-u/tmp/
+workshop-ethos-u/out/
+
+# Toolchain installers and downloads
+arm-gnu-toolchain/
+arm-gnu-toolchain.zip
+cmsis-toolbox/
+cmsis-toolcase.zip
+SEGGER/
+JLink_Windows_V948_x86_64.exe
+ninja/
+ninja.zip
+ethos-u-core-driver.pack
+ethos-u-core-driver.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# Debug/test scripts not needed for tutorial
+check_board.py
+check_cpu.py
+check_state.py
+capture_serial.py
+diagnose_boot.py
+find_uart.py
+flash.bat
+flash_after_reset.py
+flash_and_capture.py
+flash_direct.py
+flash_hard.py
+flash_simple.py
+flash_step.py
+flash_step2.py
+flash_with_reset.py
+force_boot_app.py
+full_reset_capture.py
+invoke_app.py
+jlink_reset.jlink
+jlink_reset_he.jlink
+jlink_reset_uart.py
+jlink_rtt.py
+jlink_rtt.txt
+jlink_cmd.txt
+lcd_sim.ps1
+maint_reset.py
+maint_reset2.py
+maint_reset3.py
+parse_tok.py
+ports.txt
+read_rtt.py
+reset_and_capture.py
+reset_and_read.py
+reset_and_scan.py
+reset_then_capture.py
+rtt_2.txt
+rtt_and_uart.py
+rtt_diag.py
+rtt_diag.txt
+rtt_read.py
+rtt_reset_capture.py
+rtt_test.txt
+rtt_to_log.py
+serial_bg.py
+serial_monitor.ps1
+serial_test.py
+serial_test_output.txt
+slm_deploy_verify.py
+slm_verify.py
+test_baud.py
+test_com3.py
+test_out.txt
+uart_before_reset.py
+verify_flash.py
+verify_mram.py
+wait_for_boot.py
+baud_scan.txt
+deploy_output.txt
+echo
+mkdir
+python
+
+# OS files
+Thumbs.db
+.DS_Store
+__MACOSX/
+
+# FWAuto internal data (keep config.toml only)
+.fwauto/logs/
+.fwauto/build/
+.fwauto/history/
+.fwauto/sessions/
+.fwauto/memory/
+.fwauto/capture_uart.py
+.fwauto/deploy_command.py
+.fwauto/deploy_node.py
+
+# Content directory (part of arm-learning-paths, not firmware)
+content/
+
+# Misc
+$null
+-p
+dirs created
+e8_pic.jpg
+web_server*.log

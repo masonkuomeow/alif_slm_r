@@ -1,0 +1,7 @@
+ST-04 Deployment Verification Report
+============================================================
+app-gen-toc return code : 0
+'Done!' in toc output   : True
+Flash output patterns   : {'Done!': False, 'COM3 open Serial port success': False, 'Target did not respond': False}
+Binary present          : True
+OVERALL                 : FAIL

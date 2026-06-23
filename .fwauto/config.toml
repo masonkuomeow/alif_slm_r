@@ -1,0 +1,28 @@
+[project]
+board = "Alif Semiconductor DevKit-E8"
+
+[device]
+family = "alif_ensemble"
+model = "AE822FA0E5597LS0"
+
+[sdk]
+path = ""
+
+[build]
+type = "command"
+command = "cmd /c \"cd alif_vscode-template && cmake --build tmp --target stories260k_runner.debug+E8-HE\""
+
+[deploy]
+type = "command"
+command = "cmd /c \"cd . && python deploy_setools.py alif_vscode-template/out/stories260k_runner/E8-HE/debug/stories260k_runner.bin --com COM3\""
+
+[log]
+type = "serial"
+serial_port = "COM3"
+baudrate = 115200
+board_ip = ""
+board_user = ""
+
+[fwauto.models]
+daily = "mimo-v2.5-pro"
+thinking = "mimo-v2.5-pro"

@@ -1,0 +1,3 @@
+[submodule "alif_vscode-template"]
+	url = https://github.com/masonkuomeow/alif_vscode-template.git
+	path = alif_vscode-template
