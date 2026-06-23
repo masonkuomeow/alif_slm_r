@@ -1,3 +1,6 @@
 [submodule "alif_vscode-template"]
 	url = https://github.com/masonkuomeow/alif_vscode-template.git
 	path = alif_vscode-template
+[submodule "workshop-ethos-u"]
+	url = https://github.com/masonkuomeow/workshop-ethos-u.git
+	path = workshop-ethos-u
